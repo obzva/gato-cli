@@ -17,19 +17,18 @@ go build
 ### Command Line Interface
 
 ```bash
-# example
-./gato-cli -w 800 -h 600 -m bilinear -o output.jpg input.jpg
+gato-cli [input_file] [-w width] [-h height] [-m method] [-o output] [-v]
 ```
 
-### flags
+### Flags
 
-- `-w`: Desired width of output image, defaults to keep the ratio of the original image when omitted (**at least one of two, width or height, is required**)
-- `-h`: Desired height of output image, defaults to keep the ratio of the original image when omitted (**at least one of two, width or height, is required**)
-- `-m`: Interpolation method, defaults to nearestneighbor when omitted (options: nearestneighbor, bilinear, bicubic)
-- `-o`: Output filename, defaults to the method name when omitted
-- `-c`: Concurrency mode, defaults to true when omitted
+- `-w`: Desired width of output image, defaults to keep the ratio of the original image when omitted (at least one of two, width or height, is required)
+- `-h`: Desired height of output image, defaults to keep the ratio of the original image when omitted (at least one of two, width or height, is required)
+- `-m`: Desired interpolation method, defaults to bilinear (options: nearest-neighbor, bilinear, and bicubic)
+- `-o`: Desired output filename, defaults to '[input filename]-[method name].jpg'
+- `-v`: Verbose mode to log processing time
 
-### Example I/O
+### Example
 
 Let's scale sample image up twice
 
