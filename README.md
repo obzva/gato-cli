@@ -32,18 +32,18 @@ gato-cli [input_file] [-w width] [-h height] [-m method] [-o output] [-v]
 
 Let's scale sample image up twice
 
-![input image](https://raw.githubusercontent.com/obzva/assets/refs/heads/main/gato-cli/test-image.jpg)
+![input image](https://image-server.dngyng1000.com/images/github-assets/gato-cli/test-image.jpg)
 
 input image (500 x 300)
 
-![nearest neighbor output image](https://raw.githubusercontent.com/obzva/assets/refs/heads/main/gato-cli/nearestneighbor.jpg)
+![nearest neighbor output image](https://image-server.dngyng1000.com/images/github-assets/gato-cli/nearestneighbor.jpg)
 
 output image using nearest neighbor interpolation (1000 x 600)
 
-![bilinear output image](https://raw.githubusercontent.com/obzva/assets/refs/heads/main/gato-cli/bilinear.jpg)
+![bilinear output image](https://image-server.dngyng1000.com/images/github-assets/gato-cli/bilinear.jpg)
 
 output image using bilinear interpolation (1000 x 600)
 
-![bicubic output image](https://raw.githubusercontent.com/obzva/assets/refs/heads/main/gato-cli/bicubic.jpg)
+![bicubic output image](https://image-server.dngyng1000.com/images/github-assets/gato-cli/bicubic.jpg)
 
 output image using bicubic interpolation (1000 x 600)
